@@ -1,0 +1,10 @@
+id = "mcp-server-paper"
+name = "Paper MCP Server"
+description = "Model Context Protocol Server for Paper (paper.design)"
+version = "0.1.0"
+schema_version = 1
+authors = ["seedofmany <rm.axel@proton.me>"]
+repository = "https://github.com/SeedOfMany/zed-mcp-server-paper"
+
+[context_servers.mcp-server-paper]
+name = "Paper MCP Server"

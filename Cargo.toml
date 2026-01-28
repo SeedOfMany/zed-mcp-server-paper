@@ -1,0 +1,13 @@
+[package]
+name = "mcp_server_paper"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+
+[lib]
+path = "src/mcp_server_paper.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
