@@ -44,15 +44,37 @@ This extension uses `mcp-remote` to bridge Paper's HTTP/SSE MCP server to Zed's 
 npx -y mcp-remote http://127.0.0.1:29979/mcp
 ```
 
-## Development
+## Local Use
 
-To develop this extension locally:
+To use this extension locally:
 
-1. Clone this repository
-2. In Zed, run the command: `zed: install dev extension`
-3. Select this directory
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/SeedOfMany/zed-mcp-server-paper.git
+   cd zed-mcp-server-paper
+   ```
 
-For debugging, run Zed with verbose logging:
+2. Ensure Paper desktop app is running
+
+3. In Zed, open the command palette (`Cmd+Shift+P`) and run:
+   ```
+   zed: install dev extension
+   ```
+
+4. Select the cloned directory when prompted
+
+5. Add to your Zed settings (`~/.config/zed/settings.json`):
+   ```json
+   "context_servers": {
+     "mcp-server-paper": {}
+   }
+   ```
+
+6. Reload Zed to apply changes
+
+### Debugging
+
+Run Zed from the terminal with verbose logging:
 ```bash
 zed --foreground
 ```
