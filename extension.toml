@@ -6,5 +6,5 @@ schema_version = 1
 authors = ["seedofmany <rm.axel@proton.me>"]
 repository = "https://github.com/SeedOfMany/zed-mcp-server-paper"
 
-[context_servers.mcp-server-paper]
-name = "Paper MCP Server"
+[context_servers.paper]
+name = "Paper"
