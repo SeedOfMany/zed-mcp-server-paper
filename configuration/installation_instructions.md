@@ -13,6 +13,6 @@ Add the following to your Zed settings (`~/.config/zed/settings.json`):
 
 ```json
 "context_servers": {
-  "mcp-server-paper": {}
+  "paper": {}
 }
 ```
